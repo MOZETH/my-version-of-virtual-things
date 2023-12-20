@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Car Garage</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <figure>
+                <img src="images\car3.jpg"
+                alt="a black suv" height="200" width="250">
+                <figcaption style="color-interpolation-filters: linearRGB;"">my virtual car Garages</figcaption>
+            </figure>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="car-list.html">view available cars</a></li>
+                <li><a href="#">view your Garage</a></li>
+                <li><a href=fleet-create.html>create your Garage</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>create virtual fleet</h1>
+        <form action="" method="get">
+            <p>
+                <fieldset>
+                    <legend>what type of car</legend>
+                    <input type="radio" id="sport-cars" name="car-type" value="sport ">
+                    <label for="sport-cars">Sport cars:</label>
+                    <input type="radio" id="jeeps" name="car-type" value="jeep">
+                    <label for="jeeps">jeeps</label>
+                </fieldset>
+                    <p>
+                        <label for="brand">car's brand:</label>
+                        <select id="brand" name="car brand">
+                            <option value="mercedes benz">mercedes benz</option>
+                            <option value="lexus">lexus</option>
+                            <option value="honda">honda</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for=" purchase-date">vitual purchase date:</label>
+                        <input type="date" id="purchase-date" name="car-purchase-date">
+                    </p>
+                    <p>
+                        <label for="value">worth:</label>
+                        <input type="number" id="value" name="car-worth">  
+                    </p>
+                    <p>
+                        <label for="backstory">car backstory:</label>
+                        <textarea id="backstory" name="car-backstory" rows="5"></textarea>
+                    </p>
+                    <p>
+                        <label for="email">owner's email:</label>
+                        <input type="email" id="email" name="owner-manual">
+                    </p>
+                    <input type="checkbox" id="mailing-list" name="add-to-mailing-list" value="true">
+                    <label for="add-to-mailing-list">Add me to your mailing list</label>
+                    <p>
+                        <button>save this pet</button>
+                    </p>
+         </form>
+    </main>
+    <footer>
+        All content on this site &copy;copyright- my version of version things
+    </footer>
+</body>
+</html>
